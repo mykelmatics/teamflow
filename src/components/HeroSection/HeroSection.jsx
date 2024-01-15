@@ -1,5 +1,11 @@
 import Navbar from "../Navbar/Navbar";
 import Lucy from '/src/assets/images/Lucy.png'
+import GrayBg from "/src/assets/svgs/grayBackground.svg"
+import Circle from "/src/assets/svgs/heroCircularLine.svg"
+import CircularArrow from "/src/assets/images/circularArrow.png"
+import Rectangle from "/src/assets/images/Rectangle.png"
+import Rectangle1 from "/src/assets/images/Rectangle1.png"
+import Max from "/src/assets/images/maxImg.png"
 import "./style.css";
 
 const HeroSection = () => {
@@ -39,7 +45,7 @@ const HeroSection = () => {
                 </svg>
                 <img
                   className="circularArrow"
-                  src="/src/assets/images/circularArrow.png"
+                  src={CircularArrow}
                   alt=""
                 />
                 <div className="welcomeText">👋 Welcome to TeamFlow</div>
@@ -59,12 +65,12 @@ const HeroSection = () => {
                 <div className="lucyContainer">
                   <img
                     className="circularImg"
-                    src="/src/assets/svgs/heroCircularLine.svg"
+                    src={Circle}
                     alt="circle"
                   />
                   <img
                     className="grayBg"
-                    src="/src/assets/svgs/grayBackground.svg"
+                    src={GrayBg}
                     alt="grayBackground"
                   />
                   <img
@@ -75,7 +81,7 @@ const HeroSection = () => {
                   <div className="lucy">Lucy</div>
                 </div>
                 <div className="lucyTagContainer">
-                  <img src="/src/assets/images/Rectangle.png" alt="rectangle" />
+                  <img src={Rectangle} alt="rectangle" />
                   <div className="doneBtn">Done</div>
                   <p className="lucyNana">Lucy Niana</p>
                   <p className="lucyNana role">Lucy Niana</p>
@@ -112,7 +118,7 @@ const HeroSection = () => {
                 <div className="maxTagContainer">
                   <div className="maxCard">
                     <img
-                      src="/src/assets/images/Rectangle1.png"
+                      src={Rectangle1}
                       alt="rectangle"
                     />
                     <p className="mark">Mark Anderson</p>
@@ -150,7 +156,7 @@ const HeroSection = () => {
                   <div className="maxImgWrapper">
                     <img
                       className="maxImg"
-                      src="/src/assets/images/maxImg.png"
+                      src={Max}
                       alt="max"
                     />
                     <div className="max">Max</div>

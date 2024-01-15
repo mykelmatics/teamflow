@@ -1,3 +1,8 @@
+import Zoom from "/src/assets/images/zoom.png";
+import Slack from "/src/assets/images/slack.png"
+import NewTool from "/src/assets/images/newTool.png"
+import DropBox from "/src/assets/images/dropbox.png" 
+import Drive from "/src/assets/images/drive.png"
 import "./style.css";
 
 const ExistingTool = () => {
@@ -9,11 +14,11 @@ const ExistingTool = () => {
         </h1>
         <div className="existingToolContentWrapper">
           <div className="existingToolContentLogos">
-            <img src="/src/assets/images/zoom.png" alt="zoom" />
-            <img src="/src/assets/images/newTool.png" alt="newTool" />
-            <img src="/src/assets/images/slack.png" alt="slack" />
-            <img src="/src/assets/images/dropbox.png" alt="dropbox" />
-            <img src="/src/assets/images/drive.png" alt="drive" />
+            <img src={Zoom} alt="zoom" />
+            <img src={NewTool} alt="newTool" />
+            <img src={Slack} alt="slack" />
+            <img src={DropBox}alt="dropbox" />
+            <img src={Drive} alt="drive" />
           </div>
           <button className="viewAllBtn">View All</button>
 

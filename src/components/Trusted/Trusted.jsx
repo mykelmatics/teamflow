@@ -1,3 +1,7 @@
+import Hulu from "/src/assets/images/hulu.png"
+import Bbc from "/src/assets/images/bbc.png"
+import Universal from "/src/assets/images/universal.png"
+import Adobe from "/src/assets/images/adobe.png"
 import "./style.css";
 
 const Trusted = () => {
@@ -10,10 +14,10 @@ const Trusted = () => {
           </h1>
         </div>
         <div className="trustedRight">
-            <img src="/src/assets/images/hulu.png" alt="hulu" />
-            <img src="/src/assets/images/bbc.png" alt="bbc" />
-            <img src="/src/assets/images/universal.png" alt="universal" />
-            <img src="/src/assets/images/adobe.png" alt="adobe" />
+            <img src={Hulu} alt="hulu" />
+            <img src={Bbc} alt="bbc" />
+            <img  src={Universal} alt="universal" />
+            <img src={Adobe} alt="adobe" />
         </div>
       </div>
     </div>
