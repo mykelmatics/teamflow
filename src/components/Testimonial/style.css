@@ -1,0 +1,123 @@
+.testimonial {
+  padding: 0 120px;
+}
+.testimonialWrapper {
+  max-width: 1652px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 0 auto;
+}
+.testimonialHeader h2 {
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 147.4%; /* 70.752px */
+  letter-spacing: 0.96px;
+}
+.testimonialHeader h2 > span {
+  color: #ffca1d;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.4%;
+  letter-spacing: 0.96px;
+}
+
+.testimonialContentWrapper {
+  background-image: url("/src/assets/images/testimonial-bg.png");
+  max-width: 1652px;
+
+  /* border: 1px solid red; */
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+.avatar1 {
+  position: absolute;
+  top: 8%;
+  left: 25%;
+}
+.avatar2 {
+  position: absolute;
+  top: 8%;
+  right: 25%;
+}
+.avatar3 {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+.avatar4 {
+  position: absolute;
+  top: 40%;
+  right: 15%;
+}
+.avatar5 {
+  position: absolute;
+  bottom: 8%;
+  left: 30%;
+}
+.avatar6 {
+  position: absolute;
+  bottom: 8%;
+  right: 30%;
+}
+
+.testimonialContentCard {
+  height: 695px;
+  /* border: 2px solid red; */
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.testimonialContent {
+  max-width: 492.43px;
+  border-radius: 19.146px;
+  background: #fff;
+  box-shadow: 0px 89.761px 145.862px 0px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 45px;
+  padding-top: 10px;
+  position: relative;
+}
+
+.testimonialPic {
+  position: absolute;
+  top: -50px;
+  left: 40%;
+
+  width: 101.838px;
+  height: 100px;
+  border-radius: 101.838px;
+}
+
+.testimonialIcon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.testimonialName {
+  color: #2d3150;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 30px;
+}
+.testimonialInfo {
+  color: #3c405f;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160.687%; /* 35.351px */
+}

@@ -1,0 +1,49 @@
+.trusted {
+  width: 100%;
+  padding: 20px 0;
+}
+.trustedWrapper {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trustedLeft {
+  width: 534px;
+  position: relative;
+}
+.trustedLeft::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1px;
+  width: 70px; /* or 100px */
+  border-bottom: 4px solid #fed369;
+  margin-top: -12px;
+}
+.trustedLeftText {
+  color: #515151;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 146.667% */
+  letter-spacing: 0.6px;
+}
+
+.trustedRight {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .trustedWrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

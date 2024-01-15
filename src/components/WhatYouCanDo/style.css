@@ -1,0 +1,81 @@
+.whatYouCanDo {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+.whatYouCanDoHeader {
+  color: #565656;
+  font-family: Nunito Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.47;
+  letter-spacing: 0.96px;
+  text-align: center;
+}
+.whatYouCanDoHeader span {
+    color: #FFCA1D;
+font-family: Nunito Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 147.4%;
+letter-spacing: 0.96px;
+}
+
+.whatYouCanDoWrapper {
+  width: 100%;
+  display: flex;
+  gap: 90px;
+}
+
+.whatYouCanDoContentWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 30px;
+  /* max-width: 437px; */
+}
+
+.whatYouCanDoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.whatYouCanDoContentHeader {
+  color: #2b3377;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 147.4%; /* 35.376px */
+  letter-spacing: 0.48px;
+}
+
+.whatYouCanDoContentText {
+  color: #585858;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+  letter-spacing: 0.4px;
+  text-wrap: wrap;
+}
+
+@media (max-width: 1200px) {
+  .whatYouCanDoWrapper{
+    flex-direction: column;
+  }
+  .whatYouCanDoContentWrapper {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}

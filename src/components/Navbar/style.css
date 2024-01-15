@@ -1,0 +1,66 @@
+.navbarWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+.companyLogoContainer {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.arrowDown {
+  margin-left: 8px;
+}
+.companyName {
+  margin-right: 2px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 30px;
+  font-weight: 600;
+}
+.navbarContentContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbarContent {
+  color: #eee;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.269;
+  letter-spacing: 0.48px;
+}
+.navbarCtaContainer {
+  display: flex;
+  align-items: center;
+}
+.signUpContainer {
+  margin-left: 45px;
+}
+.signUpBtn {
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 171px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  background: #ffca1d;
+  color: #2c2c2c;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.269;
+}
+.loginBtn {
+  color: #757575;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.26;
+}

@@ -1,0 +1,450 @@
+.heroContainer {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  width: 100%;
+}
+.navbarContainer {
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  z-index: 9999;
+}
+.heroContentContainer {
+  width: 100%;
+  position: absolute;
+  top: 240px;
+  z-index: 9999;
+}
+.heroContentWrapper {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  gap: 100px;
+  width: 100%;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+.heroLeftContainer {
+  /* width: 57.7%; */
+  position: relative;
+  width: 70%;
+}
+.circularArrow {
+  position: absolute;
+  bottom: 66%;
+  right: 72px;
+}
+.purpleCircle {
+  position: absolute;
+  top: -29px;
+  left: 42%;
+}
+.polygon {
+  position: absolute;
+  bottom: 45%;
+  right: 30%;
+}
+.welcomeText {
+  border-radius: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 8px;
+  padding-right: 34px;
+  background: #fff;
+  box-shadow: 2px 2px 12px 0px rgba(38, 40, 82, 0.1);
+  margin-bottom: 18px;
+  width: fit-content;
+}
+.heroTagLine {
+  color: #fff;
+  font-family: "Nunito Sans";
+  font-size: 64px;
+
+  font-weight: 800;
+  line-height: 1.26;
+  letter-spacing: 1.28px;
+}
+.heroLine {
+  width: 65px;
+  height: 6px;
+  background: #3adad9;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.heroSecondTagLine {
+  color: #fff;
+  font-family: Nunito Sans;
+  font-size: 30px;
+
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 0.6px;
+  width: 85%;
+  margin-bottom: 40px;
+}
+.heroCtaBtn {
+  display: flex;
+  align-self: flex-start;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  background: #ffca1d;
+  color: #2c2c2c;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.269;
+}
+.lucyContainer {
+  position: relative;
+  width: 310.603px;
+  height: 310.603px;
+}
+.lucyImg {
+  position: absolute;
+  top: 23px;
+  left: 65px;
+}
+.lucy {
+  position: absolute;
+  color: #494949;
+  width: 241.58px;
+  height: 67.297px;
+  border-radius: 34.511px;
+  background: #fafafa;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.26;
+  padding-top: 11px;
+  bottom: 50px;
+  left: -100px;
+  /* left: -100px; */
+}
+.grayBg {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.heroRightContainer {
+  position: relative;
+}
+.square {
+  position: absolute;
+  top: 0px;
+  left: -55px;
+  width: 35.037px;
+  height: 35.037px;
+  transform: rotate(-26.617deg);
+  border: 4px solid #6ce1b7;
+}
+.lucyTagContainer {
+  position: absolute;
+  top: 0;
+  left: 190px;
+  margin-left: 31px;
+  /* position: relative;
+    top: 0; */
+  /* background-image: url('/src/assets/images/Rectangle.png'); */
+}
+.lucyNana {
+  position: absolute;
+  top: 70px;
+  left: 140px;
+  color: #6c71a1;
+  font-family: Nunito Sans;
+  font-size: 18.753px;
+
+  font-weight: 600;
+  line-height: 1.26;
+}
+.doneBtn {
+  position: absolute;
+  top: 60px;
+  right: 130px;
+  border-radius: 7.033px;
+  background: #3adad9;
+  width: 82.046px;
+  height: 32.591px;
+  text-align: center;
+  padding-top: 4px;
+  color: #fff;
+}
+.role {
+  top: 90px;
+  color: #2b3377;
+  font-family: Nunito Sans;
+  font-size: 21.098px;
+  font-weight: 700;
+}
+.star {
+  top: 120px;
+}
+.maxTagContainer {
+  display: flex;
+  /* align-items: center; */
+}
+.maxImgWrapper {
+  position: relative;
+  width: 192px;
+  height: 192px;
+  border-radius: 100%;
+  background-color: #4b4aef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.max {
+  position: absolute;
+  width: 91.65px;
+  height: 26.186px;
+  color: #279e73;
+  font-family: Nunito Sans;
+  font-size: 11.826px;
+  background: #fafafa;
+  text-align: center;
+  padding-top: 8px;
+  font-weight: 600;
+  border-top-left-radius: 19.801px;
+  border-bottom-left-radius: 19.801px;
+  line-height: 1.26; /* 15.007px */
+  right: -34px;
+  top: 50px;
+  /* border-radius: 19.801px;
+ */
+}
+.maxImg {
+  /* width: 146px; */
+  margin-top: 3px;
+  height: 150px;
+  /* border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%; */
+}
+.maxCard {
+  position: relative;
+}
+.mark {
+  position: absolute;
+  top: 90px;
+  left: 160px;
+  color: #6c71a1;
+  font-family: Nunito Sans;
+  font-size: 22.44px;
+  font-weight: 600;
+  line-height: 1.26; /* 28.477px */
+}
+.markRole {
+  color: #2b3377;
+  position: absolute;
+  top: 120px;
+  left: 160px;
+
+  font-family: Nunito Sans;
+  font-size: 25.245px;
+  font-weight: 700;
+  line-height: 1.26;
+}
+.markStar {
+  position: absolute;
+  top: 160px;
+  left: 160px;
+}
+.heroBackground {
+  width: 100%;
+}
+.heroBackground > svg {
+  width: 100%;
+}
+.heroBlueLayout {
+  position: absolute;
+  top: 0;
+  right: 11%;
+}
+.bottomWave {
+  position: absolute;
+  bottom: 0px;
+  right: 18%;
+  z-index: 999;
+}
+.secondBottomWave {
+  position: absolute;
+  bottom: -75px;
+  right: 13%;
+  z-index: 999;
+  transform: rotate(-3.344deg);
+}
+.topWave {
+  position: absolute;
+  top: -20px;
+  left: -5%;
+  z-index: 999;
+}
+.secondTopWave {
+  position: absolute;
+  top: -15px;
+  right: 6%;
+  z-index: 999;
+}
+.midHero {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .heroContainer {
+    background-color: #4b4aef;
+    position: relative;
+    z-index: 9999999;
+    display: none;
+  }
+
+  .heroRightContainer,
+  .navbarContentContainer,
+  .hide {
+    display: none;
+  }
+  .midHero {
+    display: block;
+    background: #4b4aef;
+    padding: 0 30px;
+    height: 100vh;
+  }
+  .midHeroNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  .midHeroSection {
+    height: calc(100vh -100px);
+    display: flex;
+    flex-direction: column;
+  }
+  .midHeroSectionWrapper {
+    /* border: 1px solid red; */
+    position: relative;
+  }
+  .midHeroRight {
+    display: flex;
+    gap: 40px;
+  }
+  .midHeroRight button {
+    background: transparent;
+    border: none;
+  }
+  .login {
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.9%; /* 30.456px */
+  }
+  .sign-in {
+    padding: 15px 42px;
+    color: #1f1f1f;
+    border-radius: 10px;
+    background: #ffca1d !important;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.9%; /* 30.456px */
+  }
+  .midHeroTop {
+    max-width: 288px;
+    padding: 11px 0;
+    padding-left: 8px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 2px 2px 12px 0px rgba(38, 40, 82, 0.1);
+    margin-bottom: 18px;
+  }
+  .midHeroTop h3 {
+    color: #606060;
+    font-family: Nunito Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160.4%; /* 32.08px */
+    letter-spacing: 0.8px;
+  }
+  .midHeroCenter {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* position: relative; */
+  }
+  .squareBox {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+  }
+  .circle {
+    position: absolute;
+    top: 40%;
+    right: 45%;
+  }
+  .triangle {
+    position: absolute;
+    bottom: 20%;
+    right: 60%;
+  }
+
+  .midHeroCenter h1 {
+    max-width: 670px;
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 126.9%; /* 81.216px */
+    letter-spacing: 1.28px;
+  }
+  .midHeroCenterSubTag {
+    position: relative;
+  }
+
+  .midHeroCenter p {
+    max-width: 600px !important;
+    color: #fff;
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160.4%; /* 48.12px */
+    letter-spacing: 0.6px;
+  }
+  .midHeroCenter p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 70px; /* or 100px */
+    border-top: 6px solid #3adad9;
+    margin-top: -12px;
+  }
+  .midHeroButton {
+    padding: 18px 47px;
+    border-radius: 10px;
+    background: #ffca1d;
+    max-width: 230px;
+    text-wrap: nowrap;
+
+    color: #2c2c2c;
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.9%; /* 32.994px */
+    border: none;
+    margin-top: 40px;
+  }
+}

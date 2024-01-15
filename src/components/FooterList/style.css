@@ -1,0 +1,44 @@
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footerListTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerListTitle h2{
+  color: #2b3377;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footerListTitle  span {
+  display: none;
+}
+
+.footerListMenuWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+.footerListMenu {
+  color: #5c5e87;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (max-width: 1200px) {
+  .footerList {
+    gap: 20px;
+  }
+
+}
