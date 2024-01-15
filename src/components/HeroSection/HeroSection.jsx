@@ -1,4 +1,5 @@
 import Navbar from "../Navbar/Navbar";
+import Lucy from '/src/assets/images/Lucy.png'
 import "./style.css";
 
 const HeroSection = () => {
@@ -68,7 +69,7 @@ const HeroSection = () => {
                   />
                   <img
                     className="lucyImg"
-                    src="/src/assets/images/Lucy.png"
+                    src={Lucy}
                     alt="lucy"
                   />
                   <div className="lucy">Lucy</div>
