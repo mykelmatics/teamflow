@@ -7,6 +7,9 @@ import WhatYouCanDo from "./components/WhatYouCanDo/WhatYouCanDo";
 import FeatureIcon from "../src/components/icons/Feature";
 
 import VisualizeViewIcon from "../src/components/icons/VisualizeView";
+import Img3 from "/src/assets/images/image3.png"
+import Img2 from "/src/assets/images/image2.png"
+import Img1 from "/src/assets/images/image1.png"
 
 
 import Support from "./components/Support/Support";
@@ -43,7 +46,7 @@ function App() {
       templates and tell stories with data with our easy drag-and-drop
       infographic creator."
         // IconComponent={UserIcon}
-        imageUrl="/src/assets/images/image1.png"
+        imageUrl={Img1}
         isFeatures={false}
         isCustomerCare={false}
         isRowReversed={true}
@@ -51,7 +54,7 @@ function App() {
       />
       <ExistingTool />
       <Features
-      imageUrl="/src/assets/images/image2.png"
+      imageUrl={Img2}
         // IconComponent={AutomationUserIcon}
         rightContentHeader="Save time with Automations"
         rightContentText="Automate the repetitive work in seconds so you can avoid human error and focus on what matters. It gives the impression of software that its highly automated which implies that it is good for client for who want to save time and manage team members easily."
@@ -71,7 +74,7 @@ function App() {
         isRowReversed={true}
       />
          <Features
-        imageUrl="/src/assets/images/image3.png"
+        imageUrl={Img3}
         rightContentHeader="24/7 Customer Support"
         rightContentText="Our team is here to give you personalized support within the hour available 24/7. In accordance with our commitment to providing superior and professional service. Join daily live webinars, watch our tutorials, or browse through our knowledge 
         base"
